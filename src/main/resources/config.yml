@@ -1,0 +1,51 @@
+###########################
+# Plugin made by:         #
+# Jona / Pottenmaker      #
+# Dicord: Jona#7797       #
+# Open for new            #
+# challanges!             #
+# This plugin is made for #
+# fun, so respect it!     #
+###########################
+
+# Prefix of the plugin:
+Prefix: '&c&lQueue &8&l> &7'
+
+# Queue messages:
+Queue_Added: '&7You have been added to the queue on position &c#%position%&7/&c%maxpos%&7!' #-> Placeholders: %position% and %maxpos%.
+Queue_Move: '&7You are now on position &c#%position%&7/&c%maxpos% &7of the queue.'
+Queue_Done: '&aYou are now out of the queue, send to an server!'
+Queue_Paused: "&cThe queue is at the moment paused, please try again later.."
+Queue_Perms: "Sorry but for this you need the permission: '%permission%'!" #-> Placeholders: %permission%.
+Queue_ActionBar: "&bYou are on %position%/%maxpos%"
+
+# /qlsystem (on/off)
+QueueSystemOnline: "&7The queue system is successfully &a&lOnline&7!"
+QueueSystemOffline: "&7The queue system is successfully &c&lOffline&7!"
+
+# Error Messages
+Error_NoServerSpecified: 'You need to specify a server.'
+Error_FillServer: '&cYou need to fill in a server, /queue (server)'
+Error_NotCompatibleVersionActionBar: '§cIncompatible version!'
+Error_NotCompatibleVersionTitle: '§cVersion not allowed'
+Error_NotCompatibleVersionSubtitle: '§7Your version: %version%' #-> Placeholders: %version%.
+
+
+# Servers that are being marked to have a queue.
+Servers:
+  bedwars:
+    versions: old-mode # old-mode 1.8/1.12.2
+  survival:
+    versions: new-mode # new-mode 1.12.2/1.21.10
+                       # all-mode 1.8-1.21.10
+
+# Command to execute when the player has an incompatible version.
+# Leave empty ('') to disable this action.
+Incompatible_Command: 'spawn'
+
+
+# Give a player a queue priority:
+PriorityPermission: 'queue.priority'
+
+# The permission to bypass the queue:
+Bypass_Perm: 'queue.bypass'

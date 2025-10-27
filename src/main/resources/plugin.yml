@@ -1,0 +1,19 @@
+name: ServerQueue
+version: '1.4.0-Rota'
+main: nl.jouwapplicatie.serverQueue.ServerQueue
+api-version: '1.21'
+authors: ['jonawoning', 'rotafn']
+description: A plugin that provides a queue for you to connect to servers.
+commands:
+  serverqueue:
+    description: The main plugin command.
+    aliases: [sq]
+  queue:
+    description: Join a server queue.
+    aliases: [q]
+  qlsystem:
+    description: Set a pause for the queue.
+    aliases: [qsystem, queuesystem]
+  leavequeue:
+    description: Exit the Queue.
+    aliases: [lq]
