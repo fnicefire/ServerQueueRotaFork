@@ -1,8 +1,11 @@
-# ServerQueue Minecraft Plugin
+# ServerQueue Minecraft Plugin (Forked)
 
-Full overview of the ServerQueue Minecraft plugin at:
-https://www.spigotmc.org/resources/serverqueue-minecraft-queue-plugin.94158/
+This is a fork of the original ServerQueue Minecraft plugin.
+
+**Original Plugin:** https://www.spigotmc.org/resources/serverqueue-minecraft-queue-plugin.94158/
 
 ### Discord
-* Join our Discord for support and updates: https://discord.gg/zPuU8A52DA
-* Or message me privately: jonawoning
+* Join the official Discord for support and updates: https://discord.gg/zPuU8A52DA
+* Or message the original author privately: jonawoning
+
+**This Fork:** contains custom modifications for my own server/project.
